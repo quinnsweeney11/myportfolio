@@ -5,34 +5,40 @@
     <link rel="stylesheet" type="text/css" href="./styles.css">
     <meta charset="UTF-8">
   </head>
-  <body>
+  <body id="index">
     <nav>
-      <a href="index.html">HOME</a>
-      <a href="contact.html">CONTACT</a>
+      <a class="navItem activeNavItem"href="index.html">HOME</a>
+      <a class="navItem" href="contact.html">CONTACT</a>
+      <p class="navItem initials">QS</p>
     </nav>
 
-    <div class="about">
-      <h2>About me</h2>
-      <p id="about_p1"></p>
-      <p id="about_p2"></p>
-    </div>
-    <div class-"projects">
-      <h2>Projects</h2>
-      <ul class="projectsList">
-        <li>TweetBot - A Discord bot that monitors certain twitter accounts and sends a message when they post a tweet.</li>
-        <li>Todo - Full stack to do list app that uses React, Express, and Postgres as it's tech stack.</li>
-        <li>Jammming - a web app that utilizes the Spotify API to let a user create playlists without ever interacting directly with Spotify.</li>
-      </ul>
-    </div>
-    <div class-"skills">
-      <h2>Skills</h2>
-      <ul class="skillsList">
-        <li>React</li>
-        <li>Express and APIs in general</li>
-        <li>Postgres DB</li>
-        <li>Firebase</li>
-        <li>Heroku</li>
-      </ul>
+    <div class="mainContent">
+      <h1>HOME</h1>
+
+      <div class="about">
+        <h2>About me</h2>
+        <p id="about_p1"></p>
+        <p id="about_p2"></p>
+      </div>
+      <div class-"projects">
+        <h2>Projects</h2>
+        <p>As of right now, there are no links to check out the projects themselves, but not to fear! That will be added soon. If you'd like to see any of my projects right now, you can hit me up at any of the contacts listed <a href="contact.html">here.</a></p>
+        <ul class="projectsList">
+          <li>TweetBot - A Discord bot that monitors certain twitter accounts and sends a message when they post a tweet.</li>
+          <li>Todo - Full stack to do list app that uses React, Express, and Postgres as it's tech stack.</li>
+          <li>Jammming - a web app that utilizes the Spotify API to let a user create playlists without ever interacting directly with Spotify.</li>
+        </ul>
+      </div>
+      <div class-"skills">
+        <h2>Skills</h2>
+        <ul class="skillsList">
+          <li>React</li>
+          <li>Express and APIs in general</li>
+          <li>Postgres DB</li>
+          <li>Firebase</li>
+          <li>Heroku</li>
+        </ul>
+      </div>
     </div>
     <script src="./script.js" type="module"></script>
     <script src="./strings.js" type="module"></script>
