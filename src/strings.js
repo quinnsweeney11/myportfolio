@@ -1,8 +1,17 @@
 export const strings = {
   about: {
     p1:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque consectetur metus a mollis fringilla. Integer sem velit, sagittis a auctor ac, pretium vel sem. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur ornare maximus odio ullamcorper pretium. Pellentesque quis volutpat dolor. Nam sed dignissim dolor. In aliquam vitae turpis sed faucibus. Morbi risus nisi, molestie vitae lectus ut, commodo scelerisque lectus. In hac habitasse platea dictumst. Vestibulum id libero a augue pharetra aliquam eu a ipsum. Fusce finibus pellentesque turpis, in imperdiet nulla venenatis id. Praesent imperdiet tortor a mi scelerisque pellentesque. Proin varius fringilla commodo. Nullam hendrerit feugiat leo, at elementum enim finibus quis. ',
+      "My name is Quinn Sweeney, and I'm an 18 year old from the beautiful state of Colorado. Ever since I was old enough to see over my parent's desk, I've been obsessed with computers and how they work. That obsession has driven me down the path of front-end web development, and I couldn't be happier with the way things turned out.",
     p2:
-      'Aenean eget lacus in massa pellentesque consectetur et vitae tortor. Cras vulputate tellus est, vel euismod odio pharetra ac. Mauris urna lorem, finibus non accumsan in, efficitur vel justo. Vestibulum nunc elit, finibus non dui eget, pulvinar pellentesque diam. Sed consectetur aliquet viverra. Pellentesque iaculis nunc metus, at feugiat quam sagittis ut. Cras a malesuada dui, eget auctor mauris. Nam ac massa in nulla eleifend condimentum. Vivamus maximus interdum libero sed molestie. Etiam nunc mi, maximus non vulputate id, viverra nec sem. Curabitur bibendum ultrices tempor. Donec lobortis nisi tellus. Duis facilisis venenatis ipsum, ac imperdiet libero. ',
+      "I am a senior (wohoo!) at George Washington High School, and split my time between school and a part time apprenticeship at Pinnacol Assurance. My apprenticehsip experience has been wonderful, and I've had the pleasure to work with the smartest people I've ever met, who all taught me a ton about the web development world, both front-end and back-end.",
+  },
+  media: {
+    icons: {
+      github: 'https://image.flaticon.com/icons/png/512/25/25231.png',
+      gmail:
+        'https://www.flaticon.com/svg/vstatic/svg/888/888853.svg?token=exp=1614987194~hmac=ed3389dcb509e2f89b7ed9205d57272a',
+      twitter:
+        'https://www.flaticon.com/svg/vstatic/svg/733/733579.svg?token=exp=1614987252~hmac=fdf8df198aff215c57bf24fd81b27e0f',
+    },
   },
 };
