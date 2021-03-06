@@ -7,11 +7,9 @@ export const strings = {
   },
   media: {
     icons: {
-      github: 'https://image.flaticon.com/icons/png/512/25/25231.png',
-      gmail:
-        'https://www.flaticon.com/svg/vstatic/svg/888/888853.svg?token=exp=1614987194~hmac=ed3389dcb509e2f89b7ed9205d57272a',
-      twitter:
-        'https://www.flaticon.com/svg/vstatic/svg/733/733579.svg?token=exp=1614987252~hmac=fdf8df198aff215c57bf24fd81b27e0f',
+      github: '../media/github.png',
+      gmail: '../media/gmail.png',
+      twitter: '../media/twitter.png',
     },
   },
 };
